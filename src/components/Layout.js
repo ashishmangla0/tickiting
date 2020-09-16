@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
                     <Header />
                     <main>
                         {children}
+                        asdasd
                     </main>
                     <Footer />
                 </aside>
