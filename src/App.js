@@ -10,7 +10,7 @@ function App() {
     <Layout>
         this is index page
     </Layout>
-    <Routes/>
+   
 </>
   );
 }

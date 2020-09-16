@@ -6,7 +6,7 @@ const Routes = () =>{
         <>
               
               <Switch>
-              <Route path="/about" component={About} / >
+              <Route path="/about" component={About} />
                </Switch>
            
         
