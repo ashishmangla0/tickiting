@@ -4,14 +4,12 @@ import About from './pages/about';
 const Routes = () =>{
     return(
         <>
-              <Router>
+              
               <Switch>
-              <Route path="/about">
-            <About />
-          </Route>
+              <Route path="/about" component={About} / >
+               </Switch>
            
-                         </Switch>
-              </Router>
+        
         </>
     )
 }
