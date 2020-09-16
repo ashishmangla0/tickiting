@@ -15,7 +15,6 @@ const Sidebar = () => {
            `}
             </style>
             <aside className="aside-left">
-            <Router>
       <div>
         <nav>
           <ul>
@@ -33,33 +32,14 @@ const Sidebar = () => {
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        
       </div>
-    </Router>
+          </aside>
+      </>
   );
+ 
 }
 
-
-
-         
-            
-               </aside>
-
-        </>
-
-    )
-
-}
 
 function Home() {
     return <h2>Home</h2>;
